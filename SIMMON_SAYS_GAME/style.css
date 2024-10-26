@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.btncontainer
+{
+    height: 300px;
+    width: 300px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns
+{
+    width: 100px;
+    height: 100px;
+    /* background-color: aliceblue; */
+    border-radius: 15%;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+
+
+.one{
+    background-color: rgb(60, 124, 241);
+}
+.two{
+    background-color: rgb(233, 233, 119);
+}
+.three{
+    background-color: rgb(141, 141, 247);
+}
+.four
+{
+    background-color: rgb(231, 66, 66);
+}
+
+.flash {
+    background-color: white;
+}
+
+.flashWrong{
+    background-color: red;
+}
