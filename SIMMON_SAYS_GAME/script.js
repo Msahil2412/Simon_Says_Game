@@ -13,6 +13,7 @@ let start = false;
 
 let level=0;
 
+var heighScore=0;
 
 
 document.addEventListener('keydown', (e)=>{
@@ -28,7 +29,7 @@ function leveUp() {
         user= [];
         level++;
         let s = document.querySelector('h3');
-        s.innerText = `Level ${level}`;
+        s.innerText = `Level ${level} \n Heigh Score Is :=> ${highScore}`;
 
         let rb = Math.floor(Math.random() * 3);
         let rbc = btns[rb];
@@ -92,7 +93,7 @@ function resetAll() {
 
     sys=[];
     user=[];
-
+    highScore=level-1;
     level=0;
 }
 
